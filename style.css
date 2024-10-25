@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    color: #555;
+}
+
+/* Section Headers */
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Professional Summary */
+section p {
+    margin-bottom: 10px;
+}
+
+/* College and School Experience */
+section ol {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin: 10px 0 20px;
+}
+
+section ol li {
+    flex: 1;
+}
+
+section ol li h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+section ol li p {
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Technical Skills */
+section span {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Achievements */
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer h2 {
+    font-size: 1.2em;
+    color: #444;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
